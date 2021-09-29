@@ -104,7 +104,7 @@ function _update()
 		initfont()
 		
 		
-		if games == 1 or 2 then
+	if games == 1 or 2 then
 		 t += 1
 		 player_con()
 		 player_ani()
@@ -116,16 +116,16 @@ function _update()
 		 upd_boom()
 	
 		 
-		 if kaiju.health <= 85 then
-    next_mons()
-    kaiju.health = 121
-   end
-   else 
+	if kaiju.health <= 85 then
+		next_mons()
+		kaiju.health = 121
+   	end
+   	else 
   end
 		
-		if plyr.health == 0 then
+	if plyr.health == 0 then
 		 games = 4
-		end
+	end
 
 
 	
@@ -524,7 +524,6 @@ function monster()
 	k_x2 = kaiju.x + 32
 	k_y1 = kaiju.y 
 	k_y2 = kaiju.y + 32 
- 
  if games==1 then //onibaba
  kaiju.s = 17
  
